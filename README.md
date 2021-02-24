@@ -7,7 +7,7 @@ Hackbuntu is a script to install the most popular tools widly used by Bug Hunter
 
 
 <p align="center" width="100%">
-    <img src="https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif"> 
+    <img src="https://media.giphy.com/media/MM0Jrc8BHKx3y/giphy.gif"> 
 </p>
 
 
