@@ -179,7 +179,7 @@ install_JSParser(){
     git clone https://github.com/TheCrysp/JSParser.git
     sudo mv JSParser/ /opt/
     pip3 install -r /opt/JSParser/requirements.txt
-    python /opt/JSParser/setup.py install
+    sudo python /opt/JSParser/setup.py install
     sudo ln -sfv /opt/JSParser/handler.py /usr/local/bin/jsparser
     chmod +x /usr/local/bin/jsparser
     echo "Done!";
