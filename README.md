@@ -11,6 +11,7 @@ Hackbuntu is a script to install the most popular tools widly used by Bug Hunter
 </p>
 
 
+
 # Tools
 
 - Phantomjs
@@ -78,15 +79,23 @@ Hackbuntu is a script to install the most popular tools widly used by Bug Hunter
 - Seclists collection
 
 
+
 # Installing
-- git clone https://github.com/TheCrysp/Hackbuntu.git
-- cd Hackbuntu
-- chmod +x install.sh
-- ./install.sh
-- 
-## ⚠ Installation Disclaimer
-Hackbuntu needs to run in interactive shell(as mentioned in the shebang). You can do following if you want to use bash prefix.
+
+```shell
+git clone https://github.com/TheCrysp/Hackbuntu.git
+cd Hackbuntu
+chmod +x install.sh
+./install.sh
 ```
+
+
+
+## ⚠ Installation Disclaimer
+
+Hackbuntu needs to run in interactive shell(as mentioned in the shebang). You can do following if you want to use bash prefix.
+
+```sh
 bash -i install.sh
 ```
 
