@@ -1,5 +1,8 @@
 #!/bin/bash -i
-#This script is fully inspired from Nahamsec's script
+#This script is fully inspired by Nahamsec's script
+# Author: Prashant aka Crysp
+# Contact: twitter.com/TheCrysp
+# Release date: Feb 24, 2021
 
 green='\033[1;32m'
 red='\x1B[31m'
