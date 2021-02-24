@@ -1,6 +1,6 @@
 # Hackbuntu
 
-Hackbuntu is a script to install the most popular tools widly used by Bug Hunters and Penetration Tester. This script will help you to turn your brand new Ubuntu instance to Hacker's instance. 
+Hackbuntu is a script to install the most popular tools widely used by Bug Hunters and Penetration Tester. This script will help you to turn your brand new Ubuntu instance to Hacker's instance. 
 
 
  > **_NOTE:_**  This script is only for Ubuntu System. Please Modify the script as per your requirement.
