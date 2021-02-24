@@ -90,8 +90,7 @@ chmod +x install.sh
 ```
 
 
-
-## ⚠ Installation Disclaimer
+##Installation Using Prefix
 
 Hackbuntu needs to run in interactive shell(as mentioned in the shebang). You can do following if you want to use bash prefix.
 
