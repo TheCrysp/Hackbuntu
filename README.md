@@ -84,7 +84,7 @@ Hackbuntu is a script to install the most popular tools widly used by Bug Hunter
 - chmod +x install.sh
 - ./install.sh
 - 
-# ⚠ Installation Disclaimer
+## ⚠ Installation Disclaimer
 Hackbuntu needs to run in interactive shell(as mentioned in the shebang). You can do following if you want to use bash prefix.
 ```
 bash -i install.sh
