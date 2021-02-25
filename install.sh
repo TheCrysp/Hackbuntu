@@ -151,6 +151,7 @@ install_tomnomnom(){
    echo "Installing Tomnomnom's Tools"
    go get -u github.com/tomnomnom/assetfinder;
    go get -u github.com/tomnomnom/gron;
+   go get -u github.com/tomnomnom/gf;
    go get -u github.com/tomnomnom/meg;
    go get -u github.com/tomnomnom/anew;
    go get -u github.com/tomnomnom/httprobe; 
@@ -165,8 +166,11 @@ install_tomnomnom(){
    go get -u github.com/tomnomnom/linkheader;
    go get -u github.com/tomnomnom/comb;
    go get github.com/tomnomnom/hacks/filter-resolved;
-   go get -u github.com/tomnomnom/hacks/kxss
-   #Not Installing GF due to some error!!!
+   go get -u github.com/tomnomnom/hacks/kxss;
+   # gf Setup
+   echo 'source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc;
+   cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf;
+   git clone https://github.com/1ndianl33t/Gf-Patterns && mv Gf-Patterns/*.json ~/.gf && rm -rf Gf-Patterns;
    echo "Done!";
 }
 
