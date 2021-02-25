@@ -151,7 +151,6 @@ install_tomnomnom(){
    echo "Installing Tomnomnom's Tools"
    go get -u github.com/tomnomnom/assetfinder;
    go get -u github.com/tomnomnom/gron;
-   go get -u github.com/tomnomnom/gf;
    go get -u github.com/tomnomnom/meg;
    go get -u github.com/tomnomnom/anew;
    go get -u github.com/tomnomnom/httprobe; 
