@@ -14,7 +14,7 @@ Hackbuntu is a script to install the most popular tools widely used by Bug Hunte
 
 # Tools
 
-- Phantomjs
+- PhantomJS
 - Go
 - Sublist3r
 - Amass
@@ -58,7 +58,7 @@ Hackbuntu is a script to install the most popular tools widely used by Bug Hunte
 - Httpx
 - Mapcidr
 - Chaos
-- Gau
+- gau
 - Cspparse
 - Subjs
 - Reckdns
@@ -73,10 +73,10 @@ Hackbuntu is a script to install the most popular tools widely used by Bug Hunte
 - Sqlmap
 - Apktool
 - Nmap
-- Masscan
+- masscan
 - Rust
-- Hydra
-- Dirdar
+- hydra
+- DirDar
 - Seclists collection
 
 
