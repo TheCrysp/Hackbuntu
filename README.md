@@ -28,6 +28,7 @@ Hackbuntu is a script to install the most popular tools widely used by Bug Hunte
 - Subjack
 - assetfinder
 - Gron
+- gf
 - Meg
 - Anew
 - Httprobe
