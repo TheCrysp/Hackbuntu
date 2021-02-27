@@ -21,7 +21,9 @@ printf """$red
  ▀         ▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀    ▀  ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀ 
                                                                                                                 
 """
-
+uninstall_mandb(){
+      sudo apt-get remove --auto-remove man-db
+}
 updateandupgrade(){
       sudo apt update -y
       sudo apt upgrade -y
@@ -331,6 +333,7 @@ install_dirdar(){
 
 
 main(){
+    uninstall_mandb
     updateandupgrade
     install_prereq
     if ! type "phantomjs" > /dev/null; then
