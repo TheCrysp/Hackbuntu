@@ -76,7 +76,7 @@ sourcee(){
 install_sublist3r(){
     echo "Installing Sublist3r";
     sudo git clone https://github.com/aboul3la/Sublist3r.git
-    sudo mv Sublist3r /opt/
+    sudo mv Sublist3r/ /opt/
     pip3 install -r /opt/Sublist3r/requirements.txt
     sudo ln -sfv /opt/Sublist3r/sublist3r.py /usr/local/bin/sublist3r
     echo "Done!";
@@ -221,7 +221,7 @@ install_FGDS(){
 install_virtualhostdiscovery(){
     echo "Installing virtual-host-discovery"
     git clone https://github.com/TheCrysp/-virtual-host-discovery-.git
-    sudo mv virtual-host-discovery/ /opt/
+    sudo mv -virtual-host-discovery-/ /opt/
     sudo ln -sfv /opt/virtual-host-discovery/scan.rb /usr/local/bin/vhd
     sudo chmod +x /usr/local/bin/vhd
     echo "Done!";
