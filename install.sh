@@ -4,6 +4,8 @@
 # Contact: twitter.com/TheCrysp
 # Release date: Feb 24, 2021
 
+set -e
+
 green='\033[1;32m'
 red='\x1B[31m'
 printf """$red
