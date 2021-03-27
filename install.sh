@@ -84,6 +84,14 @@ install_sublist3r(){
     echo "Done!";
 }
 
+install_knockpy(){
+    echo "Installing Knockpy"
+    git clone https://github.com/guelfoweb/knock
+    sudo mv knock/ /opt/
+    sudo python3 setup.py install 
+    echo "Done!";
+}
+
 install_amass(){
     echo "Installing Amass!"
     sudo snap install amass
@@ -333,13 +341,6 @@ install_dirdar(){
     echo "Done!";
 }
 
-install_knockpy(){
-    echo "Installing Knockpy"
-    git clone https://github.com/guelfoweb/knock
-    sudo mv knock/ /opt/
-    sudo python3 setup.py install 
-    echo "Done!";
-}
 
 main(){
     uninstall_mandb
@@ -360,6 +361,7 @@ main(){
 
     sourcee
     install_sublist3r
+    install_knockpy
     install_amass
     install_lazys3
     install_gospider
@@ -390,7 +392,6 @@ main(){
     install_rustc
     install_hydra
     install_dirdar
-    install_knockpy
 }
 
 main
