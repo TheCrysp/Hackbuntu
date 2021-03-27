@@ -88,8 +88,7 @@ install_knockpy(){
     echo "Installing Knockpy"
     git clone https://github.com/guelfoweb/knock
     sudo mv knock/ /opt/
-    pip3 install -r /opt/knock/requirements.txt
-    sudo ln -sfv /opt/knock/knockpy/knockpy.py /usr/local/bin/knockpy
+    python3 /opt/knock/setup.py install
     echo "Done!";
 }
 
