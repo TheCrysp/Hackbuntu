@@ -86,9 +86,7 @@ install_sublist3r(){
 
 install_knockpy(){
     echo "Installing Knockpy"
-    git clone https://github.com/guelfoweb/knock
-    sudo mv knock/ /opt/
-    pip3 install -r /opt/knock/requirements.txt
+    sudo apt install knockpy
     echo "Done!";
 }
 
