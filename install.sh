@@ -84,6 +84,12 @@ install_sublist3r(){
     echo "Done!";
 }
 
+install_knockpy(){
+    echo "Installing Knockpy"
+    sudo apt install knockpy
+    echo "Done!";
+}
+
 install_amass(){
     echo "Installing Amass!"
     sudo snap install amass
@@ -353,6 +359,7 @@ main(){
 
     sourcee
     install_sublist3r
+    install_knockpy
     install_amass
     install_lazys3
     install_gospider
