@@ -1,16 +1,12 @@
 # Hackbuntu
 
-Hackbuntu is a script to install the most popular tools widely used by Bug Hunters and Penetration Tester. This script will help you to turn your brand new Ubuntu instance to Hacker's instance. 
+Hackbuntu is a script to install the most popular tools widely used by Bug Hunters and Penetration Tester. This script will help you to turn your brand new Ubuntu instance to Hacker's instance.
 
-
- > **_NOTE:_**  This script is only for Ubuntu System. Please Modify the script as per your requirement.
-
+> **_NOTE:_** This script is only for Ubuntu System. Please Modify the script as per your requirement.
 
 <p align="center" width="100%">
     <img src="https://media.giphy.com/media/MM0Jrc8BHKx3y/giphy.gif"> 
 </p>
-
-
 
 # Tools
 
@@ -78,8 +74,7 @@ Hackbuntu is a script to install the most popular tools widely used by Bug Hunte
 - hydra
 - DirDar
 - Seclists collection
-
-
+- Knockpy
 
 # Installing
 
@@ -89,8 +84,6 @@ cd Hackbuntu
 chmod +x install.sh
 ./install.sh
 ```
-
-
 
 ## Installation Using Prefix
 
@@ -103,7 +96,6 @@ bash -i install.sh
 ## Contributing
 
 I welcome contributions from the public.
-
 
 ## ⚠ Legal Disclaimer
 
